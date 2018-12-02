@@ -1,3 +1,9 @@
-var kittens = [] //define your array here
+var kittens = ["Milo", "Otis", "Garfield"] 
 
-// Add your functions and code here
+function destructivelyPrependKitten(name) {
+  kittens.unshift(name)
+}
+
+function destructivelyAppendKitten(name) {
+  kittens.shift(name)
+}
